@@ -1,0 +1,9 @@
+const ACTIONS = {
+  STORE_COUNTRIES: "STORE_COUNTRIES",
+  FILTER_COUNTRIES: "FILTER_COUNTRIES",
+  SET_COUNTRY: "SET_COUNTRY",
+};
+
+const FETCH_URL = "https://restcountries.com/v2/all";
+
+export { ACTIONS, FETCH_URL };
