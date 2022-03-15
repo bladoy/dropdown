@@ -5,6 +5,7 @@ import {
   OptionsContainer,
   Option,
   LoadMoreButton,
+  Chevron,
 } from "../styles";
 
 const DropdownSearch = (props) => {
@@ -34,6 +35,7 @@ const DropdownSearch = (props) => {
           onChange={onInputChange}
           value={inputValue}
         />
+        <Chevron />
         {selectedOption && renderSelectedOption()}
       </InputContainer>
 
@@ -47,7 +49,7 @@ const DropdownSearch = (props) => {
               selected={selectedOption && selectedOption.value === option.value}
             >
               {option.icon && (
-                <img src={option.icon} width={"20px"} height={"10px"} />
+                <img src={option.icon} width={"14.5"} height={"10px"} />
               )}
               <span>{option.label}</span>
             </Option>

@@ -91,7 +91,7 @@ function App() {
 
   const renderSelectedOption = () => (
     <SelectedOption>
-      <img src={selectedCountry.icon} width={"20px"} height={"10px"} />
+      <img src={selectedCountry.icon} width={"14.5px"} height={"10px"} />
       {selectedCountry.label}
     </SelectedOption>
   );
